@@ -10,7 +10,7 @@ export default withRouter(function MenuItem({
   history,
   match
 }) {
-  console.log(history);
+  console.log(linkUrl);
   return (
     <div
       className={`menu-item ${size}`}
