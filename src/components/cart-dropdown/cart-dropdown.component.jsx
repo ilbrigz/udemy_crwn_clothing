@@ -33,6 +33,11 @@ function CartDropdown({ cartItems, history, dispatch }) {
   );
 }
 
+// const mapStateToProps = (state) => {
+//   cartItem: selectCartItems(state)
+// }
+
+//shorthand
 const mapStateToProps = createStructuredSelector({
   cartItems: selectCartItems,
 });
